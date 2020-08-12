@@ -53,7 +53,7 @@ header {
     position: absolute;
     width: 500px;
     opacity: 0;
-    z-index: 2;
+    z-index: -1;
     background: var(--bg-dropdown);
     border-top: 2px solid var(--border-color);
     border-bottom-right-radius: 8px;
@@ -72,6 +72,7 @@ header {
 .has-dropdown:focus-within .dropdown {
     opacity: 1;
     pointer-events: auto;
+    z-index: 2;
 }
 
 .dropdown-item a {
