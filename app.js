@@ -22,6 +22,5 @@ lightButton.onclick = () => {
 
     body.classList.replace("dark", "light");
     localStorage.setItem("theme", "light");
-
 };
 
